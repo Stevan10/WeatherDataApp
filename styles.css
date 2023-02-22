@@ -1,0 +1,93 @@
+#map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+}
+.main-section {
+  display: flex;
+}
+.right-hand-display {
+  height: 100vh;
+  background-color: #333;
+  width: 50%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.data {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.form-select {
+  padding: 10px;
+  width: 300px;
+}
+
+.image-flag {
+  height: 3rem;
+  /* width: 100%; */
+}
+
+.imagecloudes {
+  height: 5rem;
+  width: 100%;
+  opacity: 0.3;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  gap: 80px;
+  width: 96%;
+}
+.load {
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.rotate {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
